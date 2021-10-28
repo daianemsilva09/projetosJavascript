@@ -21,8 +21,7 @@ const setlocalStorage = (dbClient) => localStorage.setItem ("db_client", JSON.st
 const createClient = (client) =>{
     const dbClient = getLocalStorage()
     dbClient.push(client)
-    setlocalStorage(dbClient)
-    
+    setlocalStorage(dbClient)   
 }
  
 
